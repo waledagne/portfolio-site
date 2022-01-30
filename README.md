@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # portfolio
 
 ## Build Setup
@@ -67,3 +68,7 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+=======
+# portfolio-site
+Personal portfolio website made with vue and tailwind css 
+>>>>>>> ccb1038c25ca626f2e71e39388051c0c6489079d
