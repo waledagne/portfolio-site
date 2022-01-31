@@ -1,11 +1,16 @@
 <template>
   <div class="">
     <div class="">
-      <h2>Portfolio</h2>
+      <Nav />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import Nav from "~/components/nav.vue";
+export default {
+  components: {
+    Nav,
+  },
+};
 </script>
