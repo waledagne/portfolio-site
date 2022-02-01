@@ -17,15 +17,18 @@
           Nihil dolorum at ullam sed.
         </p>
       </div>
+      <About />
     </div>
   </div>
 </template>
 
 <script>
 import Nav from "~/components/nav.vue";
+import About from "~/components/about.vue";
 export default {
   components: {
     Nav,
+    About,
   },
 };
 </script>
