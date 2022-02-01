@@ -5,6 +5,7 @@
     </div>
     <div class="justify-end items-end flex flex-row">
       <ul class="text-white flex flex-row justify-between mx-2">
+        <li class="mx-3 hover:text-accent text-lg text-gray-400">Home</li>
         <li class="mx-3 hover:text-accent text-lg text-gray-400">About</li>
         <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li>
         <li class="mx-4 hover:text-accent text-lg text-gray-400">Contact</li>
