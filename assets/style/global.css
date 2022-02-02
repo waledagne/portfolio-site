@@ -61,16 +61,16 @@ body {
 }
 
 /* Handle */
-/* ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   @apply bg-accent rounded-full;
-} */
+}
 
 /* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   @apply bg-accent-focus;
-} */
+}
 
-/* label {
+label {
   @apply text-gray-700;
 }
 
@@ -81,4 +81,3 @@ body {
 .stat-value {
   @apply text-3xl;
 }
- */
