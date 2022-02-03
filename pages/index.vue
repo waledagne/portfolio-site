@@ -3,7 +3,7 @@
     <div class="">
       <Nav />
       <div class="flex flex-row">
-        <!-- <Social /> -->
+        <Social />
       </div>
       <div class="flex flex-col justify-start items-start px-20 mx-24 mt-10">
         <h1 class="text-accent text-2xl">Hi, my name is</h1>
@@ -36,6 +36,6 @@ export default {
     About,
     Social,
   },
-  //methods for a dropdown menu
+  //sidena
 };
 </script>
