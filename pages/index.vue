@@ -22,8 +22,9 @@
           Nihil dolorum at ullam sed.
         </p>
       </div>
-
-      <About />
+      <div class="">
+        <About />
+      </div>
     </div>
   </div>
 </template>
