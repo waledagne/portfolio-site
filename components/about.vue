@@ -15,7 +15,7 @@
         </div>
         <div class="wrapper">
           <img
-            class="w-2/5 h-2/3 rounded-md bg-accent shadow-xl shadow-green-400"
+            class="w-2/5 h-2/3 rounded-md bg-accent drop-shadow-xl drop-shadow-green-400"
             src="~assets/images/profile.jpg"
             alt=""
           />
