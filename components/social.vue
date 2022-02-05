@@ -129,7 +129,7 @@ export default {};
 }
 
 .mobile {
-  @apply md:hidden flex flex-row mt-96;
+  @apply md:hidden flex flex-row mt-96 justify-center;
 }
 /* .right {
   display: flex;
