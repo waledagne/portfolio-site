@@ -13,12 +13,15 @@
             iure! Quidem quia placeat optio quos facere?
           </p>
         </div>
-        <div class="wrapper">
+        <div class="mb-6">
           <img
-            class="w-2/5 h-2/3 rounded-md bg-accent drop-shadow-xl drop-shadow-green-400"
-            src="~assets/images/profile.jpg"
+            class="w-64 h-60 rounded-md bg-accent drop-shadow-xl drop-shadow-green-400"
+            src="~assets/images/wale.jpg"
             alt=""
           />
+        </div>
+        <div>
+          <h2>works</h2>
         </div>
       </div>
     </div>
