@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="desktop flex flex-col fixed mx-6">
+    <div class="desktop flex flex-row md:flex-col fixed mx-6">
       <span class="mt-56">
         <svg
           fill="#9ea8c6"
@@ -15,7 +15,7 @@
           /></svg
       ></span>
       <div></div>
-      <span class="mt-6"
+      <span class="mt-6">
         ><svg
           fill="#9ea8c6"
           class="stroke-accent"
@@ -55,7 +55,7 @@
       <span class="line mt-8"></span>
     </div>
     <div class="mobile">
-      <span class="">
+      <span class="mt-6">
         <svg
           fill="#9ea8c6"
           class="hover:stroke-current text-accent"
@@ -107,6 +107,7 @@
           /></svg
       ></span>
     </div>
+    <!-- <h2 class="text-white mb-4">Made by Walelgn Dagne</h2> -->
   </div>
 </template>
 <script>
@@ -129,7 +130,7 @@ export default {};
 }
 
 .mobile {
-  @apply md:hidden flex flex-row mt-96 justify-center;
+  @apply md:hidden flex flex-row mt-96 justify-evenly;
 }
 /* .right {
   display: flex;

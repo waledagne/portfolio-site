@@ -1,8 +1,8 @@
 <template>
   <div id="about">
-    <div class="w-full mt-32 mx-24 px-20">
-      <div class="flex flex-row">
-        <div class="flex flex-col w-1/2">
+    <div class="w-full mt-32 md:mx-24 md:px-20">
+      <div class="flex flex-col md:flex-row justify-start">
+        <div class="flex flex-col w-full md:w-1/2">
           <h1 class="text-4xl text-gray-300 mb-6 font-semibold mx-4">
             About Me
           </h1>
@@ -21,13 +21,10 @@
         </div>
         <div class="mb-6">
           <img
-            class="w-64 h-60 rounded-md bg-accent drop-shadow-xl drop-shadow-green-400"
+            class="w-56 h-60 rounded-xl bg-accent shadow-xl shadow-red-400/50"
             src="~assets/images/wale.jpg"
             alt=""
           />
-        </div>
-        <div>
-          <h2>works</h2>
         </div>
       </div>
     </div>
@@ -35,7 +32,7 @@
 </template>
 
 <style scoped>
-.wrapper {
+/* .wrapper {
   box-shadow: 0 10px 30px -15px var(--navy-shadow);
   transition: var(--transition);
   display: block;
@@ -56,5 +53,5 @@
   transition-duration: 1s;
   transition-timing-function: 1s;
   transition-delay: 1s;
-}
+} */
 </style>

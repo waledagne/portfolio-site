@@ -1,9 +1,9 @@
 <template>
   <div class="w-full shadow-lg">
-    <div class="flex justify-start py-4 mx-4">
+    <div class="flex justify-start md:py-4 mx-4">
       <img src="~/assets/images/logo2.png" alt="" class="w-10 h-10" />
     </div>
-    <div class="justify-end items-end flex flex-row">
+    <div class="desktop-nav justify-end items-end flex flex-row">
       <ul class="text-white flex flex-row justify-between mx-2">
         <nuxt-link to="#about"
           ><li class="mx-3 hover:text-accent text-lg text-gray-400">
@@ -20,21 +20,48 @@
         </li>
       </ul>
     </div>
-    <div v-if="sidenavOn" class="side-nav">
-      <div>
-        <a @click="sidenavOn = false" href="#home" class="nav-item">Home</a>
-
-        <a @click="sidenavOn = false" href="#about" class="nav-item">About</a>
-
-        <a @click="sidenavOn = false" href="#skills" class="nav-item">Skills</a>
-
-        <a @click="sidenavOn = false" href="#works" class="nav-item">Works</a>
-
-        <a @click="sidenavOn = false" href="#contact" class="nav-item"
-          >Contact</a
-        >
+    <!-- <nav class="mobile-nav">
+      <div class="inline-flex relative">
+        <div v-if="!sidenavActive" @click="sidenavActive = true">
+          <i class="fa fa-bars text-accent text-3xl"></i>
+        </div>
+        <div v-else @click="sidenavActive = false">
+          <i class="fa fa-times text-accent text-3xl"></i>
+        </div>
       </div>
-    </div>
+    </nav>
+
+    <div v-if="sidenavActive" class="sidenav">
+      <div
+        class="w-full flex flex-col justify-start items-center border-b-2 mb-5 pb-2"
+      >
+        <div class="text-center">
+          <div
+            class="mx-auto w-14 h-14 overflow-hidden rounded-full border-2 border-accent shadow-lg"
+          ></div>
+          <div class="w-full flex items-center justify-between"></div>
+        </div>
+        <nuxt-link
+          class="text-lg mb-2"
+          to="/"
+          @click.native="sidenavActive = false"
+          >Home</nuxt-link
+        >
+        <nuxt-link
+          class="text-lg mb-2"
+          to="/about"
+          @click.native="sidenavActive = false"
+          >About</nuxt-link
+        >
+
+        <nuxt-link class="text-lg mb-2" to="/gaiaverse">Gaiaverse</nuxt-link>
+      </div>
+      <div
+        v-if="sidenavActive"
+        class="bg-black bg-opacity-50 fixed top-0 left-0 z-40 w-screen h-screen"
+        @click="sidenavActive = false"
+      ></div>
+    </div> -->
   </div>
 </template>
 
@@ -47,23 +74,12 @@ export default {
 </script>
 
 <style>
-.side-nav {
-  width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(
-    to bottom left,
-    rgba(0, 0, 0, 0.775),
-    #2c3e50
-  );
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9;
-  animation: slidedown 0.45s;
+.desktop-nav {
+  @apply hidden sm:flex;
+}
+
+.mobile-nav {
+  @apply w-full md:hidden px-5 box-border;
 }
 @keyframes slidein {
   from {
