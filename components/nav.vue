@@ -20,10 +20,82 @@
         </li>
       </ul>
     </div>
+
+    <nav class="mobile-nav">
+      <!-- <nuxt-link to="/" class="flex items-center text-xl font-bold text-accent">
+        <img src="~/assets/images/logo2.png" class="w-10" alt="" />
+      </nuxt-link> -->
+      <div v-if="!sidenavActive" @click="sidenavActive = true">
+        <i class="fa fa-bars text-accent text-3xl"></i>
+      </div>
+      <div v-else @click="sidenavActive = false">
+        <i class="fa fa-times text-accent text-3xl"></i>
+      </div>
+    </nav>
+
+    <div v-if="sidenavActive" class="sidenav">
+      <nuxt-link
+        class="text-lg mb-2"
+        to="/"
+        @click.native="sidenavActive = false"
+        >Home</nuxt-link
+      >
+      <!-- <nuxt-link
+        class="text-lg mb-2"
+        to="/pricing"
+        @click.native="sidenavActive = false"
+        >Pricing</nuxt-link
+      > -->
+      <nuxt-link
+        class="text-lg mb-2"
+        to="/intuition"
+        @click.native="sidenavActive = false"
+        >Intuition</nuxt-link
+      >
+      <!-- <nuxt-link class="text-lg mb-2 ml-5" to="">About Us</nuxt-link> -->
+      <nuxt-link
+        class="text-lg mb-2"
+        to="/gaiaverse"
+        @click.native="sidenavActive = false"
+        >Gaia Verse</nuxt-link
+      >
+      <nuxt-link
+        class="text-lg mb-2"
+        to="/partners"
+        @click.native="sidenavActive = false"
+        >For Partners</nuxt-link
+      >
+      <nuxt-link
+        class="text-lg mb-2"
+        to="/contact"
+        @click.native="sidenavActive = false"
+        >Contact</nuxt-link
+      >
+      <div class="w-full flex items-center justify-between">
+        <button
+          class="btn btn-sm rounded-full border-accent bg-accent items-center"
+        >
+          <nuxt-link class="text-white mb-2" to="/signup">Signup</nuxt-link>
+        </button>
+        <nuxt-link to="/login" class="btn btn-link text-gray-600 btn-sm ml-5"
+          >Login</nuxt-link
+        >
+      </div>
+      <div
+        v-if="sidenavActive"
+        class="bg-black bg-opacity-50 fixed top-0 left-0 z-40 w-screen h-screen"
+        @click="sidenavActive = false"
+      ></div>
+    </div>
     <!-- <nav class="mobile-nav">
       <div class="inline-flex relative">
-        <div v-if="!sidenavActive" @click="sidenavActive = true">
+        <div
+          class="text-white"
+          v-if="!sidenavActive"
+          @click="sidenavActive = true"
+        >
           <i class="fa fa-bars text-accent text-3xl"></i>
+          mo
         </div>
         <div v-else @click="sidenavActive = false">
           <i class="fa fa-times text-accent text-3xl"></i>
@@ -68,7 +140,7 @@
 <script>
 export default {
   return: {
-    sidenavOn: false,
+    sidenavActive: false,
   },
 };
 </script>
@@ -80,6 +152,13 @@ export default {
 
 .mobile-nav {
   @apply w-full md:hidden px-5 box-border;
+}
+.sidenav {
+  @apply w-3/5 md:hidden fixed rounded-lg top-14 right-0 bg-white shadow text-gray-800 z-50 flex flex-col justify-start items-start p-5;
+  animation: slidein 0.4s forwards;
+}
+.animate-slide-down {
+  animation: slidein 0.4s forwards;
 }
 @keyframes slidein {
   from {

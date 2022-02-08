@@ -18,12 +18,23 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo2.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/logo2.png' },
+      {
+        rel: 'stylesheet',
+        href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+      },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css:['~/assets/style/global.css'],
+  script: [
+    {
+      hid: 'fontawesome',
+      src: 'https://kit.fontawesome.com/0d6fc792bb.js',
+      crossorigin: 'anonymous',
+    },
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
