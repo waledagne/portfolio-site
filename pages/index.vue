@@ -29,6 +29,9 @@
       <div class="md:hidden flex-row">
         <Social />
       </div>
+      <div class="md:hidden flex justify-center mt-3">
+        <Footer />
+      </div>
     </div>
   </div>
 </template>
@@ -37,11 +40,13 @@
 import Nav from "~/components/nav.vue";
 import About from "~/components/about.vue";
 import Social from "~/components/social.vue";
+import Footer from "~/components/footer.vue";
 export default {
   components: {
     Nav,
     About,
     Social,
+    Footer,
   },
   //
 };

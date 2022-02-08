@@ -21,7 +21,7 @@
         </div>
         <div class="mb-6">
           <img
-            class="w-56 h-60 rounded-xl bg-accent shadow-xl shadow-red-400/50"
+            class="w-60 h-64 rounded-xl bg-accent shadow-xl shadow-red-400/50 mx-18 px-18"
             src="~assets/images/wale.jpg"
             alt=""
           />
