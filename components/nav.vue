@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:shadow-lg">
+  <div class="w-1/2 md:w-full md:shadow-lg">
     <div class="flex justify-start md:py-4 mx-4">
       <img
         src="~/assets/images/logo2.png"
@@ -26,9 +26,9 @@
     </div>
 
     <nav class="mobile-nav">
-      <nuxt-link to="/" class="flex items-center text-xl font-bold text-accent">
+      <!-- <nuxt-link to="/" class="flex items-center text-xl font-bold text-accent">
         <img src="~/assets/images/logo2.png" class="w-10" alt="" />
-      </nuxt-link>
+      </nuxt-link> -->
       <div
         v-if="!sidenavActive"
         @click="sidenavActive = true"
@@ -97,21 +97,21 @@ nav {
 }
 
 .mobile-nav {
-  @apply sm:hidden px-8;
+  @apply sm:hidden mx-40;
 }
 
 .sidenav {
-  @apply w-full h-full md:hidden py-5 px-6 fixed rounded-lg top-14 right-0 bg-white opacity-10 shadow text-gray-800 z-10 flex flex-col justify-start items-start;
+  @apply w-80 h-full md:hidden py-5 px-6 fixed rounded-lg top-0 right-0 bg-white opacity-10 shadow text-gray-800 z-10 flex flex-col justify-start items-start;
   animation: slidein 0.4s forwards;
 }
 
 @keyframes slidein {
   0% {
-    transform: translateY(-100px);
+    transform: translateX(-90px);
     opacity: 0;
   }
   100% {
-    transform: translateY(0px);
+    transform: translateX(0px);
     opacity: 1;
   }
 }

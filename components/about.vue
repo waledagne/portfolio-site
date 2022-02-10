@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <div class="w-full mt-32 md:mx-24 md:px-20">
+    <div class="w-full md:w-1/2 mt-32 md:mx-24 md:px-20">
       <div class="flex flex-col md:flex-row justify-start">
         <div class="flex flex-col w-full md:w-1/2">
           <h1 class="text-4xl text-gray-300 mb-6 font-semibold mx-4">
