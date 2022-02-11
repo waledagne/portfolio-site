@@ -74,16 +74,6 @@
         @click.native="sidenavActive = false"
         >Contact</nuxt-link
       >
-      <div class="w-full flex items-center justify-between">
-        <button
-          class="btn btn-sm rounded-full border-accent bg-accent items-center"
-        >
-          <nuxt-link class="text-white mb-2" to="/signup">Signup</nuxt-link>
-        </button>
-        <nuxt-link to="/login" class="btn btn-link text-gray-600 btn-sm ml-5"
-          >Login</nuxt-link
-        >
-      </div>
     </div>
   </div>
 </template>
@@ -111,7 +101,7 @@ nav {
 }
 
 .sidenav {
-  @apply w-full h-full md:hidden py-5 px-6 fixed rounded-lg top-14 right-0 bg-white shadow text-gray-800 z-50 flex flex-col justify-start items-start;
+  @apply w-full h-full md:hidden py-5 px-6 fixed rounded-lg top-14 right-0 bg-white opacity-10 shadow text-gray-800 z-10 flex flex-col justify-start items-start;
   animation: slidein 0.4s forwards;
 }
 
