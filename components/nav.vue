@@ -1,7 +1,11 @@
 <template>
   <div class="w-full md:shadow-lg">
     <div class="flex justify-start md:py-4 mx-4">
-      <img src="~/assets/images/logo2.png" alt="" class="sm:hidden w-10 h-10" />
+      <img
+        src="~/assets/images/logo2.png"
+        alt=""
+        class="md:visible sm:hidden w-10 h-10"
+      />
     </div>
     <div class="desktop-nav justify-end items-end flex flex-row">
       <ul class="text-white flex flex-row justify-between mx-2">
@@ -96,18 +100,18 @@ export default {
 
 <style>
 nav {
-  @apply w-full  px-16 flex justify-between items-center h-14 shadow-md  fixed top-0 left-0 z-50 md:hidden;
+  @apply w-full  px-16 flex justify-between items-center h-14 shadow-md fixed top-0 left-0 z-50;
 }
 .desktop-nav {
   @apply hidden sm:flex;
 }
 
 .mobile-nav {
-  @apply sm:hidden px-5;
+  @apply sm:hidden px-8;
 }
 
 .sidenav {
-  @apply w-full md:hidden py-5 px-6 fixed rounded-lg top-14 right-0 bg-white shadow text-gray-800 z-50 flex flex-col justify-start items-start;
+  @apply w-full h-full md:hidden py-5 px-6 fixed rounded-lg top-14 right-0 bg-white shadow text-gray-800 z-50 flex flex-col justify-start items-start;
   animation: slidein 0.4s forwards;
 }
 
