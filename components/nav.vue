@@ -68,7 +68,14 @@
       ></div>
     </div> -->
     <nav class="mobile-nav">
-      <div v-if="!sidenavActive" @click="sidenavActive = true" class="">
+      <nuxt-link to="/" class="flex items-center text-xl font-bold text-accent">
+        <img src="~/assets/images/logo2.png" class="w-10" alt="" />
+      </nuxt-link>
+      <div
+        v-if="!sidenavActive"
+        @click="sidenavActive = true"
+        class="justify-end items-end"
+      >
         <i class="fa fa-bars text-accent text-3xl"></i>
       </div>
       <div v-else @click="sidenavActive = false">
@@ -134,15 +141,15 @@ export default {
 </script>
 
 <style>
-/* nav {
-  @apply w-full  px-16 flex justify-between items-center h-14 shadow-md bg-white fixed top-0 left-0 z-50;
-} */
+nav {
+  @apply w-full  px-16 flex justify-between items-center h-14 shadow-md  fixed top-0 left-0 z-50;
+}
 .desktop-nav {
   @apply hidden sm:flex;
 }
 
 .mobile-nav {
-  @apply sm:hidden  px-5;
+  @apply sm:hidden px-5;
 }
 
 .sidenav {
