@@ -1,6 +1,6 @@
 <template>
   <div class="w-1/2 md:w-full md:shadow-lg">
-    <div class="flex justify-start md:py-4 mx-4">
+    <div class="flex justify-start sm:top-0 md:py-4 md:mx-4">
       <img
         src="~/assets/images/logo2.png"
         alt=""
@@ -53,27 +53,27 @@
         class="text-lg mb-2"
         to="/intuition"
         @click.native="sidenavActive = false"
-        >Intuition</nuxt-link
+        >About</nuxt-link
       >
       <!-- <nuxt-link class="text-lg mb-2 ml-5" to="">About Us</nuxt-link> -->
       <nuxt-link
         class="text-lg mb-2"
         to="/gaiaverse"
         @click.native="sidenavActive = false"
-        >Gaia Verse</nuxt-link
+        >Works</nuxt-link
       >
       <nuxt-link
         class="text-lg mb-2"
         to="/partners"
         @click.native="sidenavActive = false"
-        >For Partners</nuxt-link
+        >Contact</nuxt-link
       >
-      <nuxt-link
+      <!-- <nuxt-link
         class="text-lg mb-2"
         to="/contact"
         @click.native="sidenavActive = false"
         >Contact</nuxt-link
-      >
+      > -->
     </div>
   </div>
 </template>
