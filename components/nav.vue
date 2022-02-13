@@ -1,6 +1,6 @@
 <template>
   <div class="w-1/2 md:w-full md:shadow-lg">
-    <div class="flex justify-start sm:top-0 md:py-4 md:mx-4">
+    <div class="flex justify-start md:py-4 md:mx-4">
       <img
         src="~/assets/images/logo2.png"
         alt=""
@@ -32,7 +32,7 @@
       <div
         v-if="!sidenavActive"
         @click="sidenavActive = true"
-        class="justify-end items-end"
+        class="justify-end items-end fixed"
       >
         <i class="fa fa-bars text-accent text-3xl"></i>
       </div>
@@ -90,18 +90,18 @@ export default {
 
 <style>
 nav {
-  @apply w-full  px-16 flex justify-between items-center h-14 shadow-md fixed top-0 left-0 z-50;
+  @apply w-full  px-16 flex justify-between items-center h-14 fixed top-0 left-0 z-50;
 }
 .desktop-nav {
   @apply hidden sm:flex;
 }
 
 .mobile-nav {
-  @apply sm:hidden mx-40;
+  @apply sm:hidden justify-end items-end;
 }
 
 .sidenav {
-  @apply w-80 h-full md:hidden py-5 px-6 fixed rounded-lg top-0 right-0 bg-white opacity-10 shadow text-gray-800 z-10 flex flex-col justify-start items-start;
+  @apply w-72 h-full md:hidden py-5 px-6 fixed rounded-lg top-0 right-0 bg-black opacity-10 shadow text-gray-800 z-10 flex flex-col justify-start items-start;
   animation: slidein 0.4s forwards;
 }
 
