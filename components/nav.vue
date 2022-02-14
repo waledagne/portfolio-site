@@ -20,6 +20,7 @@
         <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li>
         <li class="mx-4 hover:text-accent text-lg text-gray-400">Contact</li>
         <li>
+          <i class="fa-solid text-accent fa-arrow-down-to-bracket"></i>
           <button class="btn btn-sm btn-outline btn-accent">Resume</button>
         </li>
       </ul>
@@ -65,12 +66,6 @@
         @click.native="sidenavActive = false"
         >Contact</nuxt-link
       >
-      <!-- <nuxt-link
-        class="text-lg mt-10"
-        to="/resume"
-        @click.native="sidenavActive = false"
-        >Resume</nuxt-link
-      > -->
       <button class="btn btn-sm btn-outline btn-accent mt-10">Resume</button>
     </div>
   </div>
@@ -95,11 +90,11 @@ nav {
 }
 
 .mobile-nav {
-  @apply sm:hidden justify-end items-end;
+  @apply sm:hidden justify-end items-end bg-opacity-40;
 }
 
 .sidenav {
-  @apply w-72 h-full md:hidden py-5 px-6 fixed rounded-lg top-0 right-0 bg-black opacity-40 shadow text-gray-400 font-semibold z-10 flex flex-col justify-center items-center;
+  @apply w-72 h-full md:hidden py-5 px-6 fixed rounded-lg top-0 right-0 bg-black  opacity-60 shadow text-gray-400 font-semibold z-10 flex flex-col justify-center items-center;
   animation: slidein 0.4s forwards;
 }
 

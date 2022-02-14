@@ -26,7 +26,7 @@
       <div class="">
         <About />
       </div>
-      <div class="md:hidden flex-row pr-4">
+      <div class="flex-row pr-4">
         <Social />
       </div>
       <div class="md:hidden flex justify-center mt-3">

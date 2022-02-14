@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="desktop flex flex-row md:flex-col fixed mx-6">
-      <span class="mt-56">
+      <span class="mt-64">
         <svg
           fill="#9ea8c6"
           class="hover:stroke-current text-accent"
