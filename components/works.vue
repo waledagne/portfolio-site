@@ -22,7 +22,7 @@
         <div
           class="shadow-lg rounded-sm w-2/3 md-12 bg-blueblack mr-14 mt-6 z-10"
         >
-          <p class="text-lg px-8">
+          <p class="text-sm text-gray-400 px-8">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
             error explicabo exercitationem tenetur, dignissimos, at deleniti sit
             fugiat placeat temporibus officia dolor minus dolorum nisi inventore
