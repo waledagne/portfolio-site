@@ -20,7 +20,6 @@
         <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li>
         <li class="mx-4 hover:text-accent text-lg text-gray-400">Contact</li>
         <li>
-          <i class="fa-solid text-accent fa-arrow-down-to-bracket"></i>
           <button class="btn btn-sm btn-outline btn-accent">Resume</button>
         </li>
       </ul>
@@ -33,7 +32,7 @@
       <div
         v-if="!sidenavActive"
         @click="sidenavActive = true"
-        class="justify-end items-end fixed"
+        class="justify-end items-end fixed bg-opacity-40"
       >
         <i class="fa fa-bars text-accent text-3xl"></i>
       </div>
@@ -67,6 +66,7 @@
         >Contact</nuxt-link
       >
       <button class="btn btn-sm btn-outline btn-accent mt-10">Resume</button>
+      <i class="fa-solid text-accent text-3xl fa-arrow-down-to-bracket"></i>
     </div>
   </div>
 </template>

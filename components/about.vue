@@ -19,7 +19,7 @@
             iure! Quidem quia placeat optio quos facere?
           </p>
         </div>
-        <div class="mb-6">
+        <div class="mb-9 mt-8 md:mt-0">
           <img
             class="w-80 h-64 rounded-xl bg-accent shadow-xl shadow-red-400/50 mx-18 px-18"
             src="~assets/images/wale.jpg"
