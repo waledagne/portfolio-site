@@ -45,6 +45,8 @@
             </div>
           </div>
         </div>
+        <!-- second project -->
+
         <div class="flex flex-row">
           <div class="flex flex-col">
             <div
