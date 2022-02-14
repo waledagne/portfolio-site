@@ -17,7 +17,9 @@
         <a href="#about">
           <li class="mx-3 hover:text-accent text-lg text-gray-400">About</li></a
         >
-        <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li>
+        <a href="#works">
+          <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li></a
+        >
         <li class="mx-4 hover:text-accent text-lg text-gray-400">Contact</li>
         <li>
           <button class="btn btn-sm btn-outline btn-accent">Resume</button>
@@ -55,7 +57,7 @@
 
       <nuxt-link
         class="text-lg mt-10"
-        to="/gaiaverse"
+        to="/#works"
         @click.native="sidenavActive = false"
         >Works</nuxt-link
       >

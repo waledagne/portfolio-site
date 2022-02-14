@@ -26,6 +26,9 @@
       <div class="">
         <About />
       </div>
+      <div>
+        <Works />
+      </div>
       <div class="flex-row pr-4">
         <Social />
       </div>
@@ -41,12 +44,14 @@ import Nav from "~/components/nav.vue";
 import About from "~/components/about.vue";
 import Social from "~/components/social.vue";
 import Footer from "~/components/footer.vue";
+import Works from "~/components/works.vue";
 export default {
   components: {
     Nav,
     About,
     Social,
     Footer,
+    Works,
   },
   //
 };
