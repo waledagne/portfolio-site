@@ -42,38 +42,36 @@
     </nav>
 
     <div v-if="sidenavActive" class="sidenav">
-      <nuxt-link
-        class="text-lg mb-2"
-        to="/"
-        @click.native="sidenavActive = false"
+      <nuxt-link class="text-lg" to="/" @click.native="sidenavActive = false"
         >Home</nuxt-link
       >
 
       <nuxt-link
-        class="text-lg mb-2"
-        to="/intuition"
+        class="text-lg mt-10"
+        to="/#about"
         @click.native="sidenavActive = false"
         >About</nuxt-link
       >
-      <!-- <nuxt-link class="text-lg mb-2 ml-5" to="">About Us</nuxt-link> -->
+
       <nuxt-link
-        class="text-lg mb-2"
+        class="text-lg mt-10"
         to="/gaiaverse"
         @click.native="sidenavActive = false"
         >Works</nuxt-link
       >
       <nuxt-link
-        class="text-lg mb-2"
+        class="text-lg mt-10"
         to="/partners"
         @click.native="sidenavActive = false"
         >Contact</nuxt-link
       >
       <!-- <nuxt-link
-        class="text-lg mb-2"
-        to="/contact"
+        class="text-lg mt-10"
+        to="/resume"
         @click.native="sidenavActive = false"
-        >Contact</nuxt-link
+        >Resume</nuxt-link
       > -->
+      <button class="btn btn-sm btn-outline btn-accent mt-10">Resume</button>
     </div>
   </div>
 </template>
@@ -101,7 +99,7 @@ nav {
 }
 
 .sidenav {
-  @apply w-72 h-full md:hidden py-5 px-6 fixed rounded-lg top-0 right-0 bg-black opacity-10 shadow text-gray-800 z-10 flex flex-col justify-start items-start;
+  @apply w-72 h-full md:hidden py-5 px-6 fixed rounded-lg top-0 right-0 bg-black opacity-40 shadow text-gray-400 font-semibold z-10 flex flex-col justify-center items-center;
   animation: slidein 0.4s forwards;
 }
 
