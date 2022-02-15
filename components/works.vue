@@ -22,7 +22,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 z-10 relative"
+              class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 relative"
             >
               <p class="text-sm text-gray-400 px-8">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
@@ -64,7 +64,7 @@
             </div>
             <div class="flex flex-col">
               <div
-                class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 z-10 relative"
+                class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 relative"
               >
                 <p class="text-sm text-gray-400 px-8">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -108,7 +108,7 @@
             </div>
             <div class="flex flex-col">
               <div
-                class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 z-10 relative"
+                class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 relative"
               >
                 <p class="text-sm text-gray-400 px-8">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
