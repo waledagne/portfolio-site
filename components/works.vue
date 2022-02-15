@@ -47,39 +47,45 @@
         </div>
         <!-- second project -->
 
-        <div class="flex flex-row">
-          <div class="flex flex-col">
-            <div
-              class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 z-10 relative"
-            >
-              <p class="text-sm text-gray-400 px-8">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-                error explicabo exercitationem tenetur, dignissimos, at deleniti
-                sit fugiat placeat temporibus officia dolor minus dolorum nisi
-                inventore ipsa nesciunt itaque. Fuga!
-              </p>
+        <div class="flex flex-col">
+          <div
+            class="flex flex-col md:flex-row md:justify-start md:items-start mt-8 relative"
+          >
+            <div class="w-full md:mx-4 relative">
+              <div class="rounded-lg shadow-lg p-4">
+                <div class="flex flex-row justify-center items-center">
+                  <img
+                    src="~/assets/images/alemekina.png"
+                    alt=""
+                    class="w-full h-96"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="flex flex-row mx-12">
-              <span class="font-thin text-gray-400 text-lg mt-2 mx-2">Vue</span>
-              <span class="font-thin text-gray-400 text-lg mt-2 mx-2"
-                >Nuxt Js</span
+            <div class="flex flex-col">
+              <div
+                class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 z-10 relative"
               >
-              <span class="font-thin text-gray-400 text-lg mt-2 mx-2"
-                >Firebase</span
-              >
-              <span class="font-thin text-gray-400 text-lg mt-2"
-                >Tailwind Css</span
-              >
-            </div>
-          </div>
-          <div class="w-full md:mx-4 relative">
-            <div class="rounded-lg shadow-lg p-4">
-              <div class="flex flex-row justify-center items-center">
-                <img
-                  src="~/assets/images/alemekina.png"
-                  alt=""
-                  class="w-full h-96"
-                />
+                <p class="text-sm text-gray-400 px-8">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Vitae error explicabo exercitationem tenetur, dignissimos, at
+                  deleniti sit fugiat placeat temporibus officia dolor minus
+                  dolorum nisi inventore ipsa nesciunt itaque. Fuga!
+                </p>
+              </div>
+              <div class="flex flex-row mx-12">
+                <span class="font-thin text-gray-400 text-lg mt-2 mx-2"
+                  >Vue</span
+                >
+                <span class="font-thin text-gray-400 text-lg mt-2 mx-2"
+                  >Nuxt Js</span
+                >
+                <span class="font-thin text-gray-400 text-lg mt-2 mx-2"
+                  >Firebase</span
+                >
+                <span class="font-thin text-gray-400 text-lg mt-2"
+                  >Tailwind Css</span
+                >
               </div>
             </div>
           </div>
