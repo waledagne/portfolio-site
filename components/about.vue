@@ -21,7 +21,8 @@
         </div>
         <div class="mb-9 mt-8 md:mt-0">
           <img
-            class="w-80 h-64 rounded-xl bg-accent shadow-xl shadow-red-400/50 mx-18 px-18"
+            id="transition"
+            class="img w-80 h-64 rounded-xl bg-accent shadow-xl bg-blend-multiply mx-18 px-18"
             src="~assets/images/wale.jpg"
             alt=""
           />
@@ -54,4 +55,15 @@
   transition-timing-function: 1s;
   transition-delay: 1s;
 } */
+.img {
+  box-shadow: 0.3rem 0.3rem #2a9d8f, -0.5rem -0.5rem #0a192f;
+}
+#transition {
+  box-shadow: 0 0 10px 0 #2a9d8f;
+  transition: box-shadow 500ms;
+}
+
+#transition:hover {
+  box-shadow: 0 10px 50px 0 #2a9d8f;
+}
 </style>
