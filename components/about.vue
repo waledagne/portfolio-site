@@ -22,7 +22,7 @@
         <div class="mb-9 mt-8 md:mt-0">
           <img
             id="transition"
-            class="w-80 h-64 rounded-xl bg-accent shadow-xl bg-blend-multiply mx-18 px-18"
+            class="w-80 h-64 rounded-xl bg-accent shadow-xl bg-blend-multiply mx-18 px-18 object-cover object-center"
             src="~assets/images/wale.jpg"
             alt=""
           />

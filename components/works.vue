@@ -15,7 +15,7 @@
                 <img
                   src="~/assets/images/alemekina.png"
                   alt=""
-                  class="w-full h-96"
+                  class="w-full h-96 object-cover object-center"
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@
                   <img
                     src="~/assets/images/alemekina.png"
                     alt=""
-                    class="w-full h-96"
+                    class="w-full h-96 object-cover object-center"
                   />
                 </div>
               </div>
@@ -101,7 +101,7 @@
                   <img
                     src="~/assets/images/alemekina.png"
                     alt=""
-                    class="w-full h-96"
+                    class="w-full h-96 object-cover object-center"
                   />
                 </div>
               </div>
