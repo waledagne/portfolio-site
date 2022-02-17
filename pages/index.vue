@@ -16,12 +16,20 @@
         <h1 class="text-gray-500 text-xl md:text-6xl font-semibold mt-4">
           I build things for the web
         </h1>
-        <p class="w-full md:w-2/3 text-gray-400 text-lg mt-4 mb-32">
+        <p class="w-full md:w-2/3 text-gray-400 text-lg mt-4">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore,
           repellat nostrum repellendus vero accusantium magnam blanditiis
           corporis neque nobis assumenda autem suscipit officia qui debitis.
           Nihil dolorum at ullam sed.
         </p>
+        <button class="btn btn-lg btn-outline btn-accent mx-20 mt-6 mb-32">
+          <img
+            src="~/assets/images/download.svg"
+            class="mx-2 hover:text-white"
+            alt=""
+          />
+          Resume
+        </button>
       </div>
       <div class="">
         <About />

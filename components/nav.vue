@@ -17,13 +17,11 @@
         <a href="#about">
           <li class="mx-3 hover:text-accent text-lg text-gray-400">About</li></a
         >
+        <li class="mx-4 hover:text-accent text-lg text-gray-400">Skills</li>
         <a href="#works">
           <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li></a
         >
         <li class="mx-4 hover:text-accent text-lg text-gray-400">Contact</li>
-        <li>
-          <button class="btn btn-sm btn-outline btn-accent">Resume</button>
-        </li>
       </ul>
     </div>
 
@@ -67,8 +65,13 @@
         @click.native="sidenavActive = false"
         >Contact</nuxt-link
       >
-      <button class="btn btn-sm btn-outline btn-accent mt-10">Resume</button>
-      <i class="fa-solid text-accent text-3xl fa-arrow-down-to-bracket"></i>
+      <nuxt-link
+        to="#skills"
+        class="text-lg mt-10"
+        @click.native="sidenavActive = false"
+      >
+        Skills
+      </nuxt-link>
     </div>
   </div>
 </template>
