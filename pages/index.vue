@@ -23,11 +23,7 @@
           Nihil dolorum at ullam sed.
         </p>
         <button class="btn btn-lg btn-outline btn-accent mx-20 mt-6 mb-32">
-          <img
-            src="~/assets/images/download.svg"
-            class="mx-2 hover:text-white"
-            alt=""
-          />
+          <img src="~/assets/images/download.svg" class="mx-2" alt="" />
           Resume
         </button>
       </div>
