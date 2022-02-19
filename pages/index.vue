@@ -22,10 +22,12 @@
           corporis neque nobis assumenda autem suscipit officia qui debitis.
           Nihil dolorum at ullam sed.
         </p>
-        <button class="btn btn-lg btn-outline btn-accent mx-20 mt-6 mb-32">
-          <img src="~/assets/images/download.svg" class="mx-2" alt="" />
-          Resume
-        </button>
+        <a href="Walelgn.pdf" download="">
+          <button class="btn btn-lg btn-outline btn-accent mx-20 mt-6 mb-32">
+            <img src="~/assets/images/download.svg" class="mx-2" alt="" />
+            Resume
+          </button>
+        </a>
       </div>
       <div class="">
         <About />
