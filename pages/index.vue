@@ -23,8 +23,10 @@
           Nihil dolorum at ullam sed.
         </p>
         <a href="Walelgn.pdf" download="">
-          <button class="btn btn-lg btn-outline btn-accent mx-20 mt-6 mb-32">
-            <img src="~/assets/images/download.svg" class="mx-2" alt="" />
+          <button
+            class="btn btn-lg btn-outline btn-accent hover:translate-x-11 mx-20 mt-6 mb-32"
+          >
+            <img src="~/assets/images/download.svg" class="mx-1" alt="" />
             Resume
           </button>
         </a>

@@ -31,17 +31,15 @@
                 inventore ipsa nesciunt itaque. Fuga!
               </p>
             </div>
-            <div class="flex flex-row mx-12">
-              <span class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
-                >Vue</span
-              >
-              <span class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
+            <div class="flex flex-row mx-12 text-accent">
+              <span class="font-thin text-sm md:text-lg mt-2 mx-2">Vue</span>
+              <span class="font-thin text-sm md:text-lg mt-2 mx-2"
                 >Nuxt Js</span
               >
-              <span class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
+              <span class="font-thin text-sm md:text-lg mt-2 mx-2"
                 >Firebase</span
               >
-              <span class="font-thin text-gray-400 text-sm md:text-lg mt-2"
+              <span class="font-thin text-sm md:text-lg mt-2"
                 >Tailwind Css</span
               >
             </div>
@@ -75,20 +73,15 @@
                   dolorum nisi inventore ipsa nesciunt itaque. Fuga!
                 </p>
               </div>
-              <div class="flex flex-row mx-12">
-                <span
-                  class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
-                  >Vue</span
-                >
-                <span
-                  class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
+              <div class="flex flex-row mx-12 text-accent">
+                <span class="font-thin text-sm md:text-lg mt-2 mx-2">Vue</span>
+                <span class="font-thin text-sm md:text-lg mt-2 mx-2"
                   >Nuxt Js</span
                 >
-                <span
-                  class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
+                <span class="font-thin text-sm md:text-lg mt-2 mx-2"
                   >Firebase</span
                 >
-                <span class="font-thin text-gray-400 text-sm md:text-lg mt-2"
+                <span class="font-thin text-sm md:text-lg mt-2"
                   >Tailwind Css</span
                 >
               </div>
@@ -122,20 +115,15 @@
                   dolorum nisi inventore ipsa nesciunt itaque. Fuga!
                 </p>
               </div>
-              <div class="flex flex-row mx-12">
-                <span
-                  class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
-                  >Vue</span
-                >
-                <span
-                  class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
+              <div class="flex flex-row mx-12 text-accent">
+                <span class="font-thin text-sm md:text-lg mt-2 mx-2">Vue</span>
+                <span class="font-thin text-accent text-sm md:text-lg mt-2 mx-2"
                   >Nuxt Js</span
                 >
-                <span
-                  class="font-thin text-gray-400 text-sm md:text-lg mt-2 mx-2"
+                <span class="font-thin text-sm md:text-lg mt-2 mx-2"
                   >Firebase</span
                 >
-                <span class="font-thin text-gray-400 text-sm md:text-lg mt-2"
+                <span class="font-thin text-sm md:text-lg mt-2"
                   >Tailwind Css</span
                 >
               </div>
