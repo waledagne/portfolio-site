@@ -43,7 +43,10 @@
     </nav>
 
     <div v-if="sidenavActive" class="sidenav">
-      <nuxt-link class="text-lg" to="/" @click.native="sidenavActive = false"
+      <nuxt-link
+        class="text-lg hover:"
+        to="/"
+        @click.native="sidenavActive = false"
         >Home</nuxt-link
       >
 
