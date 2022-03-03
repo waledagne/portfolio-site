@@ -15,6 +15,7 @@
             Home
           </li></nuxt-link
         >
+
         <a href="#about">
           <li class="mx-3 hover:text-accent text-lg text-gray-400">About</li></a
         >
