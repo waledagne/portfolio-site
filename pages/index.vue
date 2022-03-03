@@ -34,6 +34,9 @@
       <div class="">
         <About />
       </div>
+      <!-- <div>
+        <Skills />
+      </div> -->
       <div>
         <Works />
       </div>
@@ -53,6 +56,7 @@ import About from "~/components/about.vue";
 import Social from "~/components/social.vue";
 import Footer from "~/components/footer.vue";
 import Works from "~/components/works.vue";
+import Skills from "~/components/skills.vue";
 export default {
   components: {
     Nav,
@@ -60,6 +64,7 @@ export default {
     Social,
     Footer,
     Works,
+    Skills,
   },
   //
 };

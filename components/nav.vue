@@ -44,7 +44,7 @@
 
     <div v-if="sidenavActive" class="sidenav">
       <nuxt-link
-        class="text-lg hover:"
+        class="text-lg hover:underline"
         to="/"
         @click.native="sidenavActive = false"
         >Home</nuxt-link
