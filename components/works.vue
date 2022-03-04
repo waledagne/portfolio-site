@@ -15,7 +15,7 @@
                 <img
                   src="~/assets/images/alemekina.png"
                   alt=""
-                  class="w-full h-96 object-cover object-center"
+                  class="hover12 w-full h-96 object-cover object-center"
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@
                   <img
                     src="~/assets/images/alemekina.png"
                     alt=""
-                    class="w-full h-96 object-cover object-center"
+                    class="hover12 w-full h-96 object-cover object-center"
                   />
                 </div>
               </div>
@@ -96,11 +96,13 @@
             <div class="w-full md:mx-4 relative">
               <div class="rounded-lg shadow-lg p-4">
                 <div class="flex flex-row justify-center items-center">
-                  <img
-                    src="~/assets/images/alemekina.png"
-                    alt=""
-                    class="w-full h-96 object-cover object"
-                  />
+                  <figure>
+                    <img
+                      src="~/assets/images/alemekina.png"
+                      alt=""
+                      class="hover12 w-full h-96 object-cover object"
+                    />
+                  </figure>
                 </div>
               </div>
             </div>
@@ -134,3 +136,17 @@
     </div>
   </div>
 </template>
+
+<style>
+.hover12 figure {
+  background: #1abc9c;
+}
+.hover12 figure img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover12 figure:hover img {
+  opacity: 0.5;
+}
+</style>
