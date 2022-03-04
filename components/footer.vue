@@ -50,6 +50,19 @@ a {
   width: 1px;
   height: 90px;
   margin: 0px auto;
-  background-color: var(--light-slate);
+  background-color: #9ea8c6;
 }
+::before,
+::after {
+  box-sizing: inherit;
+}
+/* .line::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 165px;
+  margin: 0px auto;
+  background-color: #9ea8c6;
+  margin-top: -1px;
+} */
 </style>
