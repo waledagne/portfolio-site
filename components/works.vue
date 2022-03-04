@@ -10,7 +10,7 @@
           class="flex flex-col md:flex-row md:justify-start md:items-start mt-8 relative"
         >
           <div class="w-full md:mx-4 relative">
-            <div class="rounded-lg shadow-lg p-4">
+            <div class="rounded-lg p-4">
               <div class="flex flex-row justify-center items-center">
                 <img
                   src="~/assets/images/alemekina.png"
