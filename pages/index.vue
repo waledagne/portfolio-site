@@ -45,18 +45,18 @@
       </div>
 
       <!-- write email at justify end -->
-      <div
+      <!-- <div
         class="flex flex-col justify-end items-end md:px-20 md:mx-24 mx-0 mt-4 md:mt-10"
       >
         <h1 class="text-accent text-xl md:text-2xl">
           <a href="mailto:" class="text-accent">hello</a>
         </h1>
-      </div>
+      </div> -->
 
       <!-- <div class="justify-end items-end">
         <span>walelgn@gmail.com</span>
       </div> -->
-      <div class="md:hidden flex justify-center mt-3">
+      <div class="flex justify-end items-end md:px-20 md:mx-24 mt-3">
         <Footer />
       </div>
     </div>

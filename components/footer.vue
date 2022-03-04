@@ -1,5 +1,55 @@
 <template>
-  <div class="text-gray-300">
-    <p>Made by walelgn dagne</p>
+  <div orientation="right" class="jSIwrL text-gray-300">
+    <div class="jJFfEJ">
+      <a href="">
+        <p class="text-gray-300">Made by walelgn dagne</p>
+      </a>
+    </div>
   </div>
 </template>
+
+<style scoped>
+.jSIwrL {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  color: var(--light-slate);
+}
+.jJFfEJ {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+.jJFfEJ a {
+  margin: 20px auto;
+  padding: 10px;
+  font-family: var(--font-mono);
+  font-size: var(--fz-xxs);
+  line-height: var(--fz-lg);
+  letter-spacing: 0.1em;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: var(--transition);
+}
+.jJFfEJ::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--light-slate);
+}
+</style>
