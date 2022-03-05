@@ -2,7 +2,7 @@
   <div orientation="right" class="jSIwrL text-gray-300">
     <div class="jJFfEJ">
       <a href="">
-        <p class="text-gray-300">Made by walelgn dagne</p>
+        <p class="text-gray-300 hover:text-accent">walelgndagne@gmail.column</p>
       </a>
     </div>
   </div>
@@ -28,8 +28,7 @@
 .jJFfEJ a {
   margin: 20px auto;
   padding: 10px;
-  font-family: var(--font-mono);
-  font-size: var(--fz-xxs);
+
   line-height: var(--fz-lg);
   letter-spacing: 0.1em;
   -webkit-writing-mode: vertical-rl;

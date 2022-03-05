@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="desktop flex flex-row md:flex-col fixed mx-6">
-      <a href="https://github.com/waledagne" class="mt-72">
+      <a href="https://github.com/waledagne" class="mt-64">
         <svg
           fill="#9ea8c6"
           class="hover:stroke-current text-accent"
