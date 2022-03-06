@@ -56,7 +56,7 @@
       <!-- <div class="justify-end items-end">
         <span>walelgn@gmail.com</span>
       </div> -->
-      <div class="flex justify-end items-end md:px-20 md:mx-24 mt-3">
+      <div class="">
         <Footer />
       </div>
     </div>

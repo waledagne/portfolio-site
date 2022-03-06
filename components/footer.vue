@@ -1,9 +1,22 @@
 <template>
-  <div orientation="right" class="jSIwrL text-gray-300">
-    <div class="jJFfEJ">
-      <a href="">
-        <p class="text-gray-300 hover:text-accent">walelgndagne@gmail.column</p>
-      </a>
+  <div>
+    <div class="desktop">
+      <div orientation="right" class="jSIwrL text-gray-300">
+        <div class="jJFfEJ">
+          <a href="">
+            <p class="text-gray-300 hover:text-accent">
+              walelgndagne@gmail.com
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <!-- mobile  -->
+      <div class="mobile">
+        <a href="">
+          <p class="text-gray-300 hover:text-accent">Made by walelnd Dagne</p>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -54,6 +67,13 @@ a {
 ::before,
 ::after {
   box-sizing: inherit;
+}
+.desktop {
+  @apply hidden md:flex;
+}
+
+.mobile {
+  @apply md:hidden flex flex-col mt-96 justify-center;
 }
 /* .line::after {
   content: "";
