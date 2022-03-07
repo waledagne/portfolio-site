@@ -61,9 +61,9 @@ body {
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   @apply bg-accent rounded-full;
-}
+} */
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

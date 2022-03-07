@@ -12,11 +12,11 @@
       </div>
 
       <!-- mobile  -->
-      <div class="mobile">
+      <!-- <div class="mobile">
         <a href="">
           <p class="text-gray-300 hover:text-accent">Made by walelnd Dagne</p>
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -72,9 +72,9 @@ a {
   @apply hidden md:flex;
 }
 
-.mobile {
+/* .mobile {
   @apply md:hidden flex flex-col mt-96 justify-center;
-}
+} */
 /* .line::after {
   content: "";
   display: block;

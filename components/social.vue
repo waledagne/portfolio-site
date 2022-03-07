@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="flex flex-col">
     <div class="desktop flex flex-row md:flex-col fixed mx-6">
       <a href="https://github.com/waledagne" class="mt-64">
         <svg
@@ -16,7 +16,7 @@
       ></a>
 
       <a href="https://twitter.com/Demakese" class="mt-6">
-        ><svg
+        <svg
           fill="#9ea8c6"
           class="stroke-accent"
           xmlns="http://www.w3.org/2000/svg"
@@ -110,6 +110,9 @@
       ></a>
     </div>
     <!-- <h2 class="text-white mb-4">Made by Walelgn Dagne</h2> -->
+    <p class="md:hidden text-gray-300 text-sm mx-20 px-4 mt-3 justify-center">
+      Made by walelgn dagne
+    </p>
   </div>
 </template>
 <script>
