@@ -59,6 +59,9 @@
       <div class="">
         <Footer />
       </div>
+      <div>
+        <Hello />
+      </div>
     </div>
   </div>
 </template>
@@ -70,6 +73,7 @@ import Social from "~/components/social.vue";
 import Footer from "~/components/footer.vue";
 import Works from "~/components/works.vue";
 import Skills from "~/components/skills.vue";
+import Hello from "~/components/getintouch.vue";
 export default {
   components: {
     Nav,
@@ -78,7 +82,22 @@ export default {
     Footer,
     Works,
     Skills,
+    Hello,
   },
   //
 };
 </script>
+
+<style>
+/* .reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+} */
+</style>
