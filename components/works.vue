@@ -55,7 +55,7 @@
               <div class="rounded-lg shadow-lg p-4">
                 <div class="flex flex-row justify-center items-center">
                   <img
-                    src="~/assets/images/alemekina.png"
+                    src="~/assets/images/greencheddar.png"
                     alt=""
                     class="hover12 w-full h-96 object-cover object-center"
                   />
@@ -96,13 +96,11 @@
             <div class="w-full md:mx-4 relative">
               <div class="rounded-lg shadow-lg p-4">
                 <div class="flex flex-row justify-center items-center">
-                  <figure>
-                    <img
-                      src="~/assets/images/alemekina.png"
-                      alt=""
-                      class="hover12 w-full h-96 object-cover object"
-                    />
-                  </figure>
+                  <img
+                    src="~/assets/images/alemekina.png"
+                    alt=""
+                    class="hover12 w-full h-96 object-cover object-center"
+                  />
                 </div>
               </div>
             </div>
