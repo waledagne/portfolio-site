@@ -3,7 +3,19 @@
     <div
       class="w-full text-gray-300 text-2xl md:text-3xl font-semibold flex flex-col md:mx-24 md:px-20 mt-44 justify-start"
     >
-      <h2>A few things I built</h2>
+      <h2
+        class="heading"
+        style="
+          visibility: visible;
+          opacity: 1;
+          transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+          transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s,
+            transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+        "
+      >
+        A few things I built
+      </h2>
+
       <!-- make image cards  -->
       <div class="flex flex-col">
         <div
@@ -146,5 +158,30 @@
 }
 .hover12 figure:hover img {
   opacity: 0.5;
+}
+.heading::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+
+  width: 350px;
+  height: 1px;
+  margin-left: 285px;
+  background-color: #9ea8c6;
+}
+.heading::before {
+  position: relative;
+  bottom: 2px;
+
+  margin-right: 0.5px;
+}
+/* ::selection {
+  background-color: var(--lightest-navy);
+  color: var(--lightest-slate);
+} */
+::before,
+::after {
+  box-sizing: inherit;
 }
 </style>

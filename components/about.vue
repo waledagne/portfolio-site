@@ -3,7 +3,7 @@
     <div class="w-full md:w-2/3 mt-40 md:mx-24 md:px-20">
       <div class="flex flex-col md:flex-row justify-start">
         <div class="flex flex-col w-full">
-          <h1 class="text-4xl text-gray-300 mb-6 font-semibold mx-4">
+          <h1 class="heading text-4xl text-gray-300 mb-6 font-semibold mx-4">
             About Me
           </h1>
           <p class="text-gray-400">
@@ -115,7 +115,7 @@ body {
   opacity: 0;
 }
 
-.card::before {
+/* .card::before {
   content: "";
   width: 104%;
   height: 102%;
@@ -154,8 +154,29 @@ body {
   opacity: 1;
   transition: opacity 0.5s;
   animation: spin 2.5s linear infinite;
+} */
+.heading::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+
+  width: 325px;
+  height: 1px;
+  margin-left: 180px;
+  background-color: #9ea8c6;
+}
+.heading::before {
+  position: relative;
+  bottom: 2px;
+
+  margin-right: 0.5px;
 }
 
+::before,
+::after {
+  box-sizing: inherit;
+}
 @keyframes spin {
   0% {
     --rotate: 0deg;
