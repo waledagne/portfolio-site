@@ -1,10 +1,10 @@
 <template>
-  <div class="p-8 md:p-0">
+  <div class="">
     <div class="">
       <Nav />
-      <div class="hidden md:flex">
+      <!-- <div class="hidden md:flex">
         <Social />
-      </div>
+      </div> -->
 
       <div
         class="flex flex-col justify-start items-start md:px-20 md:mx-24 mx-0 mt-4 md:mt-10 mb-32"
@@ -40,7 +40,7 @@
       <div>
         <Works />
       </div>
-      <div class="flex-row pr-4">
+      <div class="">
         <Social />
       </div>
 
