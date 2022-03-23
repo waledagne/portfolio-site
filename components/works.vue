@@ -4,7 +4,7 @@
       class="w-full text-gray-300 text-2xl md:text-3xl font-semibold flex flex-col md:mx-24 md:px-20 mt-44 justify-start"
     >
       <h2
-        class="heading"
+        class=""
         style="
           visibility: visible;
           opacity: 1;
