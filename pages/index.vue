@@ -34,9 +34,9 @@
       <div class="">
         <About />
       </div>
-      <!-- <div>
+      <div>
         <Skills />
-      </div> -->
+      </div>
       <div>
         <Works />
       </div>
