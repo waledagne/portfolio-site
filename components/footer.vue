@@ -4,7 +4,9 @@
       <div orientation="right" class="jSIwrL text-gray-300">
         <div class="jJFfEJ">
           <a href="">
-            <p class="text-gray-300 hover:text-accent">
+            <p
+              class="text-gray-300 text-sm hover:text-accent hover:animate-bounce"
+            >
               walelgndagne@gmail.com
             </p>
           </a>
@@ -41,7 +43,6 @@
 .jJFfEJ a {
   margin: 20px auto;
   padding: 10px;
-
   line-height: var(--fz-lg);
   letter-spacing: 0.1em;
   -webkit-writing-mode: vertical-rl;
@@ -50,11 +51,10 @@
 
 a {
   display: inline-block;
-  text-decoration: none;
+
   text-decoration-skip-ink: auto;
   color: inherit;
   position: relative;
-  transition: var(--transition);
 }
 .jJFfEJ::after {
   content: "";
