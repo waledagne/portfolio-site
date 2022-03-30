@@ -37,7 +37,9 @@
               <h3 class="text-gray-300 text-lg font-semibold mt-3">
                 Mobile Development
               </h3>
-              <h3 class="text-gray-300 text-lg font-semibold mt-3">
+              <h3
+                class="text-lg font-semibold mt-3 text-transparent bg-clip-text bg-gradient-to-br from-green-200 to-green-400"
+              >
                 Mobile Development
               </h3>
             </li>
