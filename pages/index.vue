@@ -40,15 +40,16 @@
       <div>
         <Works />
       </div>
+
+      <div>
+        <Hello />
+      </div>
       <div class="flex-row pr-4">
         <Social />
       </div>
 
       <div class="">
         <Footer />
-      </div>
-      <div>
-        <Hello />
       </div>
     </div>
   </div>
