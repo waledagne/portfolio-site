@@ -31,14 +31,18 @@
               </h3>
             </li>
             <li class="flex flex-col w-full">
-              <h3 class="text-gray-300 text-lg font-semibold">
-                Mobile Development
-              </h3>
-              <h3 class="text-gray-300 text-lg font-semibold mt-3">
+              <h3
+                class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
                 Mobile Development
               </h3>
               <h3
-                class="text-lg font-semibold mt-3 text-transparent bg-clip-text bg-gradient-to-br from-green-200 to-green-400"
+                class="text-lg font-semibold mt-3 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
+                Mobile Development
+              </h3>
+              <h3
+                class="text-lg font-semibold mt-3 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
               >
                 Mobile Development
               </h3>
