@@ -54,6 +54,7 @@
               <span class="font-thin text-sm md:text-lg mt-2"
                 >Tailwind Css</span
               >
+              <span><img src="~/assets/images/link.svg" alt="" /></span>
             </div>
           </div>
         </div>
