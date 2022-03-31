@@ -6,17 +6,14 @@
           <h1 class="text-4xl text-gray-300 mb-6 font-semibold mx-4">
             About Me
           </h1>
+          <p class="text-gray-400"></p>
           <p class="text-gray-400">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-            ipsam laboriosam quas impedit, at voluptatibus eveniet neque
-            tenetur, reprehenderit pariatur reiciendis earum? Exercitationem,
-            iure! Quidem quia placeat optio quos facere?
-          </p>
-          <p class="text-gray-400">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-            ipsam laboriosam quas impedit, at voluptatibus eveniet neque
-            tenetur, reprehenderit pariatur reiciendis earum? Exercitationem,
-            iure! Quidem quia placeat optio quos facere?
+            Hi, I'm Walelgn. A Software Engineer/Web Developer extensive
+            experience developing and maintaining web applications. I have a
+            bachelor's degree in Computer Science and Engineering with a passion
+            for front-end development. I specialize in Javascript, Vue js for
+            front-end development. My goal is to create as many happy customers
+            and learn as much from them in this ever-advancing field.
           </p>
         </div>
         <div class="mb-9 mt-8 md:mt-0">
