@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="p-6">
     <div class="">
       <Nav />
       <div class="hidden md:flex">
