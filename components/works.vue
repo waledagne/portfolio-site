@@ -54,7 +54,9 @@
               <span class="font-thin text-sm md:text-lg mt-2"
                 >Tailwind Css</span
               >
-              <span><img src="~/assets/images/link.svg" alt="" /></span>
+              <span class="mx-4 mt-2"
+                ><a href=""><img src="~/assets/images/link.svg" alt="" /></a
+              ></span>
             </div>
           </div>
         </div>
@@ -97,6 +99,9 @@
                 <span class="font-thin text-sm md:text-lg mt-2"
                   >Tailwind Css</span
                 >
+                <span class="mx-4 mt-2"
+                  ><a href=""><img src="~/assets/images/link.svg" alt="" /></a
+                ></span>
               </div>
             </div>
           </div>
@@ -139,6 +144,9 @@
                 <span class="font-thin text-sm md:text-lg mt-2"
                   >Tailwind Css</span
                 >
+                <span class="mx-4 mt-2"
+                  ><a href=""><img src="~/assets/images/link.svg" alt="" /></a
+                ></span>
               </div>
             </div>
           </div>
