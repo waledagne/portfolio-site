@@ -19,7 +19,11 @@
         <a href="#about">
           <li class="mx-3 hover:text-accent text-lg text-gray-400">About</li></a
         >
-        <li class="mx-4 hover:text-accent text-lg text-gray-400">Skills</li>
+        <a href="#skill">
+          <li class="mx-4 hover:text-accent text-lg text-gray-400">
+            Skills
+          </li></a
+        >
         <a href="#works">
           <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li></a
         >
