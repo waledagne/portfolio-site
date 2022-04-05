@@ -6,7 +6,7 @@
         alt=""
         class="md:visible sm:hidden w-10 h-10"
       /> -->
-      <span class="text-2xl text-accent font-bold">WD</span>
+      <!-- <span class="text-2xl text-accent font-bold">WD</span> -->
     </div>
     <div class="desktop-nav justify-end items-end flex flex-row">
       <ul class="text-white flex flex-row justify-between mx-2">

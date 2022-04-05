@@ -27,7 +27,7 @@
                 <img
                   src="~/assets/images/alemekina.png"
                   alt=""
-                  class="hover12 w-full h-96 object-cover object-center"
+                  class="hover12 w-96 h-96"
                 />
               </div>
             </div>
@@ -70,15 +70,11 @@
             <div class="w-full md:mx-4 relative">
               <div class="rounded-lg p-4">
                 <div class="flex flex-row justify-center items-center">
-                  <div class="row">
-                    <a href="#" class="column" id="caption">
-                      <img
-                        src="~/assets/images/greencheddar.png"
-                        alt=""
-                        class="hover12 w-96 h-96"
-                      />
-                    </a>
-                  </div>
+                  <img
+                    src="~/assets/images/greencheddar.png"
+                    alt=""
+                    class="hover12 w-96 h-96"
+                  />
                 </div>
               </div>
             </div>
@@ -87,10 +83,11 @@
                 class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 relative"
               >
                 <p class="text-sm text-gray-400 px-8">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Vitae error explicabo exercitationem tenetur, dignissimos, at
-                  deleniti sit fugiat placeat temporibus officia dolor minus
-                  dolorum nisi inventore ipsa nesciunt itaque. Fuga!
+                  The app measures your carbon footprint. Depending on your
+                  individual and herd performance, you get allocated with play
+                  to earn carbon coins. These coins function as an allowance to
+                  pollute/type of currency that you can sell/keep or use to
+                  compete on leader boards with friends and family.
                 </p>
               </div>
               <div class="flex flex-row mx-12 text-accent">
@@ -113,7 +110,7 @@
           </div>
         </div>
         <!-- Third project card -->
-        <div class="flex flex-col">
+        <!-- <div class="flex flex-col">
           <div
             class="flex flex-col md:flex-row md:justify-start md:items-start mt-8 relative"
           >
@@ -156,7 +153,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
