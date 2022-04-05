@@ -68,13 +68,17 @@
             class="flex flex-col md:flex-row md:justify-start md:items-start mt-8 relative"
           >
             <div class="w-full md:mx-4 relative">
-              <div class="rounded-lg shadow-lg p-4">
+              <div class="rounded-lg p-4">
                 <div class="flex flex-row justify-center items-center">
-                  <img
-                    src="~/assets/images/greencheddar.png"
-                    alt=""
-                    class="hover12 w-full h-96 object-cover object-center"
-                  />
+                  <div class="row">
+                    <a href="#" class="column" id="caption">
+                      <img
+                        src="~/assets/images/greencheddar.png"
+                        alt=""
+                        class="hover12 w-96 h-96"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -194,5 +198,28 @@
 ::before,
 ::after {
   box-sizing: inherit;
+}
+/* .column#caption {
+  position: relative;
+} */
+.column#caption .text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0;
+  transition: all 1s ease;
+}
+.column#caption .text h1 {
+  margin-left: 50px;
+  padding-left: 300px;
+  padding-top: 300px;
+  color: rgb(85, 236, 85);
+}
+.column#caption:hover .text {
+  opacity: 1;
+}
+.column#caption:hover img {
+  -webkit-filter: sepia(90%);
 }
 </style>
