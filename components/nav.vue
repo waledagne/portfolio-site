@@ -93,7 +93,7 @@ export default {
 
 <style>
 nav {
-  @apply w-full  px-16 flex justify-between items-center h-14 fixed top-0 left-0 z-50;
+  @apply w-full  px-16 flex justify-between items-center h-14 fixed top-0 left-0 z-50 opacity-60;
 }
 .desktop-nav {
   @apply hidden sm:flex;
