@@ -45,20 +45,16 @@
             </li>
             <li class="flex flex-col w-full">
               <div class="flex flex-row">
-                <h3
-                  class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
-                >
-                  Node Js
-                </h3>
-                <img class="mx-4" src="~/assets/images/node.svg" alt="" />
+                <h3 class="text-lg font-semibold text-gray-300">Node Js</h3>
+                <img class="mx-3" src="~/assets/images/node.svg" alt="" />
               </div>
               <h3
-                class="text-lg font-semibold mt-3 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+                class="text-lg font-semibold mt-3 text-transparent text-gray-300"
               >
                 Laravel
               </h3>
               <h3
-                class="text-lg font-semibold mt-3 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+                class="text-lg font-semibold mt-3 text-transparent text-gray-300"
               >
                 Mongo DB
               </h3>
