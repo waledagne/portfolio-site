@@ -37,10 +37,10 @@
               class="shadow-lg rounded-sm w-full md:w-2/3 bg-blueblack mr-20 mx-0 mt-10 relative"
             >
               <p class="text-sm text-gray-400 px-8">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-                error explicabo exercitationem tenetur, dignissimos, at deleniti
-                sit fugiat placeat temporibus officia dolor minus dolorum nisi
-                inventore ipsa nesciunt itaque. Fuga!
+                This web is build to allow users to post their cars for sell or
+                rent and also to search for cars for rent or sell. It is a full
+                stack web application that uses Vue.js, Nuxt js and firebase as
+                a backend.
               </p>
             </div>
             <div class="flex flex-row mx-12 text-accent">
