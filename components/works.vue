@@ -55,7 +55,7 @@
                 >Tailwind Css</span
               >
               <span class="mx-4 mt-2"
-                ><a href="alemekina.com"
+                ><a href="https://alemekina.com" target="_blank"
                   ><img src="~/assets/images/link.svg" alt="" /></a
               ></span>
             </div>
@@ -102,7 +102,7 @@
                   >Tailwind Css</span
                 >
                 <span class="mx-4 mt-2"
-                  ><a href="greencheddar.org"
+                  ><a href="https://greencheddar.org" target="_blank"
                     ><img src="~/assets/images/link.svg" alt="" /></a
                 ></span>
               </div>
