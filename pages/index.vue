@@ -17,10 +17,11 @@
           I build things for the web
         </h1>
         <p class="w-full md:w-2/3 text-gray-400 text-lg mt-4">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore,
-          repellat nostrum repellendus vero accusantium magnam blanditiis
-          corporis neque nobis assumenda autem suscipit officia qui debitis.
-          Nihil dolorum at ullam sed.
+          I’m a web developer specializing in building exceptional web apps that
+          highly performant and responsive. I’m passionate about building clean
+          and elegant code. I’m a problem solver who loves to learn and grow and
+          I’m a team player who loves to work in a team environment. I’m a fast
+          learner who loves to learn new things.
         </p>
         <a href="Walelgn.pdf" download="">
           <button
