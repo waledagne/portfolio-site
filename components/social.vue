@@ -2,7 +2,7 @@
   <div class="flex flex-col">
     <div
       orientation="left"
-      class="desktop flex flex-row md:flex-col fixed mx-4 jSIwrL"
+      class="desktop flex flex-row md:flex-col fixed jSIwrL"
     >
       <div class="jJFfEJ">
         <a href="https://github.com/waledagne" class="mt-72">
