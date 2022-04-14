@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-16 fixed top-0 left-0 z-50 opacity-60 md:shadow-xl">
+  <div class="nav w-full h-16 fixed top-0 left-0 z-11 md:shadow-xl">
     <div class="">
       <!-- <img
         src="~/assets/images/logo2.png"
@@ -11,23 +11,29 @@
     <div class="desktop-nav justify-end items-end flex flex-row">
       <ul class="text-white flex flex-row justify-between mx-2">
         <nuxt-link to="#about"
-          ><li class="mx-3 hover:text-accent text-lg text-gray-400">
+          ><li class="mx-3 hover:text-accent text-md text-gray-300 mt-10">
             Home
           </li></nuxt-link
         >
 
         <a href="#about">
-          <li class="mx-3 hover:text-accent text-lg text-gray-400">About</li></a
+          <li class="mx-3 hover:text-accent text-md text-gray-300 mt-10">
+            About
+          </li></a
         >
         <a href="#skill">
-          <li class="mx-4 hover:text-accent text-lg text-gray-400">
+          <li class="mx-4 hover:text-accent text-md text-gray-300 mt-10">
             Skills
           </li></a
         >
         <a href="#works">
-          <li class="mx-3 hover:text-accent text-lg text-gray-400">Works</li></a
+          <li class="mx-3 hover:text-accent text-md text-gray-300 mt-10">
+            Works
+          </li></a
         >
-        <li class="mx-4 hover:text-accent text-lg text-gray-400">Contact</li>
+        <li class="mx-4 hover:text-accent text-md text-gray-300 mt-10">
+          Contact
+        </li>
       </ul>
     </div>
 
@@ -96,8 +102,15 @@ export default {
 </script>
 
 <style>
-nav {
-  @apply w-full  px-16 flex justify-between items-center h-14 fixed top-0 left-0 z-50 opacity-60;
+.nav {
+  /* @apply w-full  px-16 flex justify-between items-center h-14 fixed top-0 left-0 z-50 opacity-60; */
+  -webkit-backdrop-filter: blur(400px);
+  backdrop-filter: blur(400px);
+  background-color: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(10px);
+  transition: var(--transition);
+  filter: none !important;
+  pointer-events: auto !important;
 }
 .desktop-nav {
   @apply hidden sm:flex;

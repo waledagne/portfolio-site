@@ -69,7 +69,7 @@
           >
             <div class="w-full md:mx-4 relative">
               <div class="rounded-lg p-4">
-                <div class="flex flex-row justify-center items-center">
+                <div class="img flex flex-row justify-center items-center">
                   <img
                     src="~/assets/images/greencheddar.png"
                     alt=""
