@@ -1,5 +1,5 @@
 <template>
-  <div class="p-6">
+  <div class="top p-6">
     <div class="">
       <Nav />
       <div class="hidden md:flex">
@@ -10,7 +10,10 @@
         class="flex flex-col justify-start items-start md:px-20 md:mx-24 mx-0 mt-4 md:mt-10 mb-32"
       >
         <h1 class="text-accent text-xl md:text-2xl">Hi, my name is</h1>
-        <h1 class="text-gray-200 font-semibold text-xl md:text-6xl mt-4">
+        <h1
+          data-aos="fade-up"
+          class="text-gray-200 font-semibold text-xl md:text-6xl mt-4"
+        >
           Walelgn Dagne.
         </h1>
         <h1 class="text-gray-500 text-xl md:text-6xl font-semibold mt-4">
@@ -78,4 +81,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.top {
+  overflow: hidden;
+}
+</style>

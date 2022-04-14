@@ -1,5 +1,5 @@
 <template>
-  <div class="px-8 w-full h-16 fixed top-0 z-50 opacity-60 md:shadow-xl">
+  <div class="w-full h-16 fixed top-0 left-0 z-50 opacity-60 md:shadow-xl">
     <div class="">
       <!-- <img
         src="~/assets/images/logo2.png"
